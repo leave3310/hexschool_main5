@@ -1,0 +1,145 @@
+.container{
+    width: 940px;
+    margin: 0 auto 0 auto;
+}
+.banner{
+    margin-bottom: 60px;
+}
+.list{
+    display: flex;
+    justify-content: space-between;
+}
+.menu{
+    width: 32%;
+    line-height: 40px;
+    h2{
+        background-color: $green-shadow;
+        color: $blue-green;
+        padding: 16px 102px;
+        text-align: center;
+        font-size: $font-24;
+    }
+    li{
+        color: $green-shadow;
+        font-size: $font-24;
+        border: 1px solid $blue-green;
+    }
+    li a{
+        color: $green-shadow;
+        padding: 16px 64px;
+        display: block;
+        text-align: center;
+        &:hover{
+            background-color: $blue-green;
+        }
+    }
+}
+.product{
+    display: flex;
+    flex-wrap: wrap;
+    width: 66%;
+    justify-content: space-between;
+    li{
+        margin-bottom: 20px;
+    }
+}
+.img{
+    position: relative;
+}
+.text{
+    position: absolute;
+    left: 20px;
+    writing-mode: vertical-lr;
+    color: $blue-green;
+    background-color: $green-shadow;
+    padding: 10px;
+    font-size: $font-16;
+    line-height: 20px;
+    letter-spacing: 3px;
+}
+.favimg{
+    position: absolute;
+    right: 20px;
+    top: 19px;
+}
+.descript{
+    display: flex;
+    border-right: 1px solid $blue-green;
+    border-left: 1px solid $blue-green;
+    h3{
+        padding: 14px 33px;
+        font-size: $font-20;
+        line-height: 20px;
+        border-right: 1px solid $blue-green;
+        color: $green-shadow;
+    }
+    span{
+        padding: 14px 20px 14px 25px;
+        font-size: $font-20;
+        line-height: 20px;
+        color: $green-shadow;
+    }
+}
+.addshop{
+    display: block;
+    padding: 16px 90px;
+    color: $green-shadow;
+    background-color: $blue-green;
+    text-align: center;
+}
+.page{
+    display: flex;
+    justify-content: flex-end;
+}
+.switch{
+    display: flex;
+    border-top: 1px solid $blue-green;
+    border-bottom: 1px solid $blue-green;
+    border-left: 1px solid $blue-green;
+    margin-bottom: 60px;
+    li a{
+        width: 60px;
+        height: 60px;
+        font-size: $font-20;
+        color: $green-shadow;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-right: 1px solid $blue-green;
+    }
+    li a:hover{
+        background-color: $blue-green;
+    }
+}
+@media (max-width: 768px){
+    .container{
+        width: 768px;
+    }
+    .banner{
+        margin-bottom: 0;
+    }
+    .list{
+        display: block;
+    }
+    .menu{
+        width: 100%;
+    }
+    .product{
+        width: 82%;
+        margin: 30px auto 10px auto;
+    }
+    .page{
+        justify-content: center;
+    }
+    .switch{
+        margin-bottom: 30px;
+    }
+}
+@media(max-width: 420px){
+    .container{
+        width: 414px;
+    }
+    .product{
+        width: 76%;
+    }
+}

@@ -1,0 +1,57 @@
+.bannerCheckout{
+    background-image: url('../../img/checkout.png');
+    width: 100%;
+    background-size: cover;
+    height: 460px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 60px;
+    img{
+        width: 189px;
+        margin-bottom: 51px;
+    }
+    a{
+        padding: 17px 102px 15px 102px;
+        background-color: $yellow-shadow;
+        color: $green-shadow;
+        font-size: $font-24;
+        line-height: 20px;
+        text-align: center;
+    }
+}
+.space{
+    margin-right: 66px;
+}
+.check-circle{
+    position: relative;
+    margin-bottom: 30px;
+}
+.material-icons{
+    color: $green-shadow;
+}
+.border{
+    position: absolute;
+    border: 1px solid $green-shadow;
+    width: 73px;
+    left: 22px;
+    top: 12px;
+    &:nth-child(2){
+        left: 115px;
+    }
+}
+@media (max-width:420px){
+    .bannerCheckout{
+        position: relative;
+        margin-bottom: 50px;
+        a{
+            position: absolute;
+            top: 100%;
+            width: 100%;
+            
+        }
+    }
+}

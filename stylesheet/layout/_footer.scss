@@ -1,0 +1,136 @@
+.subscribe {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: $green-shadow;
+  padding: 30px 122px;
+  h2 {
+    color: $blue-green;
+    font-size: $font-24;
+    line-height: 29px;
+  }
+}
+.logoAndtext {
+  display: flex;
+  align-items: center;
+}
+.logo-light {
+  width: 40px;
+  margin-right: 20px;
+}
+.form {
+  display: flex;
+  position: relative;
+}
+.input {
+  width: 316px;
+  height: 56px;
+  font-size: $font-24;
+  background-color: $blue-green;
+  border: none;
+  padding-left: 45px;
+  color: $green-shadow;
+}
+.mail {
+  width: 24px;
+  position: absolute;
+  left: 20px;
+  top: 16px;
+}
+.submit {
+  background-image: url("/img/arrow_forward-24px.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  border: none;
+  width: 64px;
+  background-color: #ffe180;
+}
+.last {
+  background-color: $blue-green;
+  padding: 39px 122px 30px 122px;
+}
+.top {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+.information {
+  font-size: $font-16;
+  line-height: 24px;
+  color: $green-shadow;
+  margin-top: 115px;
+}
+.phrase {
+  writing-mode: vertical-rl;
+  font-size: $font-24;
+  color: $green-shadow;
+  letter-spacing: 6px;
+  p {
+    text-indent: 12px;
+    margin-right: 13px;
+  }
+}
+.bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+.socialweb {
+  display: flex;
+  img {
+    width: 32px;
+    margin-right: 8px;
+  }
+}
+.property {
+  font-size: $font-16;
+  line-height: 19px;
+  color: $green-shadow;
+}
+@media (max-width: 768px) {
+  .subscribe {
+    display: block;
+  }
+  .logoAndtext {
+    justify-content: center;
+    margin-bottom: 33px;
+  }
+  .input {
+    width: 315px;
+  }
+  .form {
+    justify-content: center;
+  }
+  .mail {
+    left: 70px;
+  }
+}
+@media (max-width: 420px) {
+    .subscribe{
+        padding: 30px 0;
+    }
+    .input{
+        width: 270px;
+    }
+    .mail{
+        left: 30px;
+    }
+    .last{
+        padding: 39px 87px 30px 30px;
+    }
+    .top{
+        margin-bottom: 37px;
+    }
+    .information{
+        margin-top: 40px;
+    }
+    .phrase{
+        display: none;
+    }
+    .bottom{
+        display: block;
+    }
+    .socialweb{
+        margin-bottom: 23px;
+    }
+}
