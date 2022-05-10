@@ -1,0 +1,162 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+}
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+.container {
+  max-width: 940px;
+  margin: 0 auto;
+}
+.h1-hide {
+  display: block;
+  text-indent: 101%;
+  overflow: hidden;
+  white-space: nowrap;
+}
+.mt-30 {
+  margin-top: 30px;
+}
+.mb-30 {
+  margin-bottom: 30px;
+}
+.d-flex {
+  display: flex;
+}
+.justify-content-between {
+  justify-content: space-between;
+}
+.header-button li {
+  color: #3f5d45;
+  margin-right: 60px;
+}
+.header-button li:last-child {
+  margin-right: 0;
+}
+.align-item-center {
+  align-items: center;
+}
+.text-white {
+  color: #eaf0ed;
+}
+.aside-list {
+  width: 300px;
+  font-size: 24px;
+  line-height: 40px;
+}
+.aside-list h2 {
+  background-color: #3f5d45;
+  padding: 16px 102px;
+}
+.text-green {
+  color: #3f5d45;
+}
+.aside-list a {
+  border: 1px solid #eaf0ed;
+}
+.aside-list a:hover {
+  background-color: #eaf0ed;
+}
+.aside-list a {
+  padding: 16px 0;
+}
+.mb-60 {
+  margin-bottom: 60px;
+}
+.position-relative {
+  position: relative;
+}
+.position-absoulte {
+  position: absolute;
+}
+.product-img-featured {
+  top: 0;
+  left: 20px;
+  background-color: #3f5d45;
+  writing-mode: vertical-lr;
+  padding: 10px;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 3px;
+}
+.product-img-fav {
+  top: 19px;
+  right: 22px;
+}
+.d-block {
+  display: block;
+}
+
+.product-name {
+  padding: 14px 33px;
+  border: 1px solid #eaf0ed;
+}
+.product-price {
+  padding: 14px 20px 14px 25px;
+  border: 1px solid #eaf0ed;
+}
+.product-add {
+  background-color: #eaf0ed;
+}
+.product-add a {
+  padding: 16px 90px;
+  display: block;
+}
+.flex-fill {
+  flex: 1 1 auto;
+}
+
+.product-add a {
+  background-color: #eaf0ed;
+  padding: 16px 90px;
+}
+.text-center {
+  text-align: center;
+}
+.flex-wrap {
+  flex-wrap: wrap;
+}
+.mr-20 {
+  margin-right: 20px;
+}
+.mb-20 {
+  margin-bottom: 20px;
+}
+.flex-noshrink {
+  flex-shrink: 0;
+}
+.change-page li a {
+  border: 1px solid #eaf0ed;
+}
+.change-page-shape{
+  width: 60px;
+  height: 60px;
+}
+.change-page li:first-child a,
+.change-page li:last-child a {
+  padding: 18px;
+}
+
+.justify-content-end {
+  justify-content: end;
+}
+.change-page-line-height{
+  line-height: 60px;
+}
+.change-page--active{
+  background-color: #3f5d45;
+  color: #eaf0ed;
+}
+.change-page--active:hover{
+  color: #3f5d45;
+}
+.change-page a:hover{
+  background-color: #eaf0ed;
+}
